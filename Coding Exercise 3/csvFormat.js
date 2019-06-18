@@ -22,52 +22,5 @@ fs.createReadStream('patients.csv')
 .pipe(csv())
 .on('data', (data) => results.push(data))
 .on('end', () => {
-  console.log(results[1]);
-
- const filtered = results.filter(obj=>{
-     console.log(obj)
-      obj["Insurance Company"]==="Atena";
-  })
-
-  console.log(filtered);
-//   patients = results.map((patient)=>{
-//     console.log(patient);
-//      return new Patient(patient);
-//   })
-//   console.log(patients);
+  console.log(results);
 })
-
-console.log(patients);
-// let patients = [];
-// fs.open('cities.csv', 'r',  (err, fd)=>{
-//     console.log(fd)
-// } )
-// fs.readFile('cities.csv', 'utf8', (err, data)=>{
-//    //data;
-// //    let patient = {
-// //        userId: "",
-// //        name: "",
-// //        version: 0,
-// //        insuranceCompany:""
-// //    }
-//     people = data.split("\n");
-//     console.log(people[1]);
-
-//     for(let i =0; i<people.length; i++){
-//         // let pArr = (people[i].replace(",", ""))
-//      let pArr = String(people[i].slice(0, people[i].length-1));
-//        patients.push(pArr);
-//        console.log(patients)
-//     }
-
-//     console.log(patients[1].split(','));
-
-//     const patientObjects = patients.map((patient)=>{
-//         let newPatient = patient.split(',');
-//         return new Patient(newPatient);
-//     })
-
-//     console.log(patientObjects)
-
-// });
-

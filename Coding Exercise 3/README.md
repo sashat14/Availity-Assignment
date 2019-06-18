@@ -1,6 +1,6 @@
 # Tell me about your proudest professional achievement.  It can be a personal or school project.  
 
-    My proundest accomplishement was completling capstone project for Lambda.  I fought so hard to get to that moment.  It was difficult technically, emotionally, and psychologically.  I wanted to postpone the project many times in the beginning but I stuck it out and learned so much. I became a better, stronger person for it.  
+    My proudest accomplishment was completing capstone project for Lambda.  I fought so hard to get to that moment.  It was difficult technically, emotionally, and psychologically.  I wanted to postpone the project many times in the beginning but I stuck it out and learned so much. I became a better, stronger person for it.  
 
 ## Tell me a about a book, blog, article or GitHub repo you read or liked recently, and why you like it and why you should recommend I do the same. 
 
